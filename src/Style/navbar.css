@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap');
+/* 
+.main{
+  align-items: center;
+} */
+
+.backgroundimg {
+    background-image: url("../assets/blog-header.jpeg");
+  
+}
+
+.header-active {
+  border-bottom: 2px solid #fff;
+}
+.loginbtn{
+    background: #e74425 !important ;
+font-size: 0.9rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+.navbarr{
+    font-family: 'Poppins', sans-serif;
+     background-color: transparent;
+}
+.navbar-brand{
+    color:white;
+    font-size: 1.6rem;
+
+}
+.navitems {
+    position: relative;
+    color: #ffffff;
+    text-decoration: none;
+    /* padding: 0.5rem 4rem; */
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.99;
+    font-size: 0.9rem;
+
+    &::before {
+      content: '';
+      position: absolute;
+      width:100%;
+      height: 2px;
+      background-color: 
+      #ffffff; 
+      bottom: 0;
+      left: 0;
+      transform: scaleX(0); /* Initially, the line is not visible */
+      transform-origin: center;
+      transition: transform 0s ease;
+    }
+  
+    &:hover::before {
+      transform: scaleX(1); /* On hover, expand the line to cover the text */
+      transform-origin: left;
+    }
+  }
+  .mainheading{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+
+ 
+  }
+  .heading{
+   line-height: 60px;
+   font-size: 2.3rem;
+  }
+  .headingdes{
+    font-size: .9rem;
+  }

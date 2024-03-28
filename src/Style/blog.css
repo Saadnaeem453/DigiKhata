@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.blogbg {
+    background-image: url("../src/assets/blogs/blog-header.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+}

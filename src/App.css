@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.font {
+  font-family: "Montserrat", sans-serif;
+}
+p{
+    font-family: "Montserrat", sans-serif;
+}
+.bg-orange{
+    background-color: #e74425;
+}
+.orange{
+    color: #e74425;
+}
+p{
+    font-size: 0.9rem !important;
+}
+
+.h2,h2{
+    font-size: 1.8rem !important;
+    font-weight: 700 !important;
+
+}
+.bg-grey{
+    background-color: #f8f8f8;
+}
+.justify{
+    text-align: justify;
+}
+.pointer:hover{
+    cursor: pointer;
+}

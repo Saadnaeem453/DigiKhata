@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.careerbg {
+    background-image: url("../assets/career/career-head.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+}
+.text-orange{
+    color: #e74425;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.carousel .control-dots .dot.selected{
+    background: #e74425 !important;
+  }
+  .carousel .control-dots li {
+    size: 100px !important;
+    width: 15px !important;
+    height: 15px !important;
+    border: 2px solid #e74425 ;
+    border-radius: 50%;
+    background-color: transparent !important;
+
+}

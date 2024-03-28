@@ -1,0 +1,65 @@
+@media (min-width:992px) {
+    .max-width{
+max-width: 50%;
+/* flex: 0 0 50%; */
+text-align: center;
+margin: auto;
+    }
+    .slick-carousel{
+        width: 800px !important;
+    }
+}
+
+.our-invester .d-grid{
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+/* .slick-carousel .slick-dots li.slick-active button:before{
+    color: #e74425 !important;
+}
+.slick-carousel .slick-dots li button:before{
+    color: transparent !important;
+    border: 1px solid  #e74425;
+     font-size: 30px !important;
+     background-color: none !important;
+}
+
+.slick-carousel .slick-dots li{
+    width: 20px !important;
+    height: 20px !important;
+
+} */
+
+.slick-dots   .slick-active button{
+    background: #e74425 !important;
+    width: 15px ;
+    height: 15px;
+}
+.slick-dots li button{
+    width: 13px ;
+    height: 13px;
+    font-size: 0 ;
+    outline: 1px solid #e74425;
+    border-radius: 50%;
+    background-color: #fff ;
+    color: #e74425 ;
+}
+.slick-dots li button:before{
+    font-size: 0;
+}
+.slick-dots li button:hover{
+    outline: 2px solid #e74425;
+}
+
+@media (min-width:768px) {
+    .pe-6rem{
+        padding-right: 6rem ;
+    }
+    .our-invester .d-grid{
+        grid-template-columns: repeat(4,1fr);
+        gap: 20px;
+    }
+    .slick-carousel{
+        width: 800px !important;
+    }
+}

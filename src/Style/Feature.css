@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+.dual-color h2{
+    font-size: 1.8rem !important;
+}
+.benifits{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.background-blog{
+    background-image: url("../assets/features/feature-head.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+}
+.explore{
+    margin-top: 170px;
+    padding-top: 170px !important;
+}
+.orange{
+    color:#f83600;
+}
+.dual-color{
+    background-image: linear-gradient(to left ,#fe8c00,#f83600);
+}
+.bg-grey {
+    background-color: #f8f8f8;
+}
+.enc-cards{
+    transition: all .2s ease-in-out
+}
+.enc-cards:hover{
+    transform: scale(1.1);
+}
+.inline-text{
+    text-align: justify;
+}
+@media (min-width: 768px){
+.text-md-right {
+    text-align: right!important;
+    align-items: right;
+}
+}

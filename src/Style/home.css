@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap');
+.pointer{
+  cursor: pointer;
+}
+.bg-orange{
+  background-color: #e74425;
+}
+.heading{
+  font-size: 2.3rem !important;
+  font-weight: 600;
+}
+.homeHeading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    
+}
+.homeHeading2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.homeImages{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.homeImages img{
+    padding-left: 30px;
+}
+
+/* Cards */
+.cardss{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px;
+}
+.d-card{
+    border-top: 5px solid rgb(245, 245, 245);
+
+    background-color: rgb(245, 245, 245);
+    font-family: 'Montserrat', sans-serif;
+    transition: transform 0.1s linear;
+border-radius: 10px;
+}
+.d-card-detail{
+    color: #212529;
+
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.6;
+}
+.d-card:hover{
+  box-shadow: 0px 0px 30px rgba(2, 2, 2, 0.15);
+
+    border-top: 5px solid #e74425;
+    border-radius: 10px;
+    transform: scale(1.1);
+    background-color: rgb(247, 247, 247);
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+    .cardss {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  }
+  @media (max-width: 576px) {
+    .cardss {
+        margin-left: 1px;
+      }
+  }
+  @media (max-width: 480px) {
+    .cardss {
+      grid-template-columns: 1fr; 
+      margin-left: 0px;
+    }
+  }
+
+  /* Users */
+
+
+  .users{
+    font-family: 'Montserrat', sans-serif;
+
+
+  }
+  /* feedback */
+  .feedback{
+background-color: #e74425;
+font-family: 'Montserrat', sans-serif;
+
+  }
+  .feedback p{
+    font-size: 0.9rem;
+  }
+  .full-width{
+    width: 100%;
+  }
+  .feedback .carousel.carousel-slider .control-arrow {
+    display:none;
+
+  }
+  .feedback .carousel .control-dots{
+    margin: 10px 80px !important;
+
+  }
+  .feedback .carousel .control-dots .dot.selected{
+    background: white !important;
+  }
+  .feedback .carousel .control-dots li {
+    size: 100px !important;
+    width: 15px !important;
+    height: 15px !important;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: transparent !important;
+
+}
+.feedback .carousel .carousel-status {
+    display:none;
+
+  }
+
+  /* faqs */
+   .accordion-item {
+    border: none !important;
+    margin-bottom: 20px !important;
+  }
+  .accordianHeading{
+    font-family: 'Montserrat', sans-serif;
+  }
+  .accordion-button {
+    font-weight: 400 !important;
+    font-size: 0.89rem !important;
+    color:rgb(79, 79, 79) !important;
+  }
+  .accordion-body {
+    font-size: 0.89rem !important;
+
+  }
+  .accordion-button:focus {
+    border: none !important;
+    box-shadow: none !important;
+  }
+  
+   .accordion-button:not(.collapsed) {
+    margin-bottom: "20px " !important;
+    border: none !important;
+    background-color: #e74425 !important;
+    color: white !important;
+  }
+  
+   .accordion-button::after {
+    background-image: url("../assets/accordian-plus.png") !important;
+    transform: none !important;
+    width: 2rem !important;
+    height: 2rem !important;
+    background-size: 2rem !important;
+  }
+  
+   .accordion-button:not(.collapsed)::after {
+    background-image: url("../assets/accordian-minus.png") !important;
+    width: 2.25rem !important;
+    height: 2.25rem !important;
+    background-size: 2.25rem !important;
+  }
+  .modal-content {
+    background-color: transparent !important;
+    border: none !important;
+    width: 700px !important;
+  }
