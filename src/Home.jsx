@@ -275,15 +275,16 @@ const Home = () => {
         </div>
 
         {/*----------------------------- Feedbacks --------------------------------- */}
+
         <div className="container-fluid feedback text-white">
-          <Carousel autoPlay infinite interval={100} >
+          <Carousel className='col-md-4 col-10' autoPlay infiniteLoop interval={1000} showThumbs={false} showStatus={false}>
             <div className="carousel-slide">
-              <div className="row  ">
-                <div className="col-md-4 col-12 mt-5 pt-5 pb-5  ">
-                  <img src={img13} style={{ width: "80%" }} className='img-fluid ' alt="Image 1" />
+              <div className="row">
+                <div className="col-md-4 col-12 mt-5 pt-5 pb-5">
+                  <img src={img13} style={{ width: "80%" }} className='img-fluid' alt="Image 1" />
                 </div>
                 <div className="col-md-8 col-12 my-auto">
-                  <div className="row ">
+                  <div className="row">
                     <div className="col-2">
                       <img src={comaup} style={{ width: "80px" }} className='img-fluid' alt="Image 2" />
                     </div>
@@ -297,49 +298,50 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="row  ">
-              <div className="col-md-4 col-12 mt-5 pt-5 pb-5  ">
-                <img src={img15} style={{ width: "80%" }} className='img-fluid ' alt="Image 1" />
-              </div>
-              <div className="col-md-8 col-12 my-auto">
-                <div className="row ">
-                  <div className="col-2">
-                    <img src={comaup} style={{ width: "80px" }} className='img-fluid' alt="Image 2" />
-                  </div>
-                  <div className="col-8" style={{ marginTop: "70px" }}>
-                    <p>Whenever I add transactions to Digi Khata, then it sends free Automatic SMS reminders to the customer along with the customer ledger. Maintain the accounts and leave no room for mistakes.</p>
-                  </div>
-                  <div className="col-2" style={{ marginTop: "140px" }}>
-                    <img src={comadown} style={{ width: "80px" }} className='img-fluid' alt="Image 3" />
+            <div className="carousel-slide">
+              <div className="row">
+                <div className="col-md-4 col-12 mt-5 pt-5 pb-5">
+                  <img src={img15} style={{ width: "80%" }} className='img-fluid' alt="Image 4" />
+                </div>
+                <div className="col-md-8 col-12 my-auto">
+                  <div className="row">
+                    <div className="col-2">
+                      <img src={comaup} style={{ width: "80px" }} className='img-fluid' alt="Image 5" />
+                    </div>
+                    <div className="col-8" style={{ marginTop: "70px" }}>
+                      <p>Whenever I add transactions to Digi Khata, it sends free Automatic SMS reminders to the customer along with the customer ledger. Maintain the accounts and leave no room for mistakes.</p>
+                    </div>
+                    <div className="col-2" style={{ marginTop: "140px" }}>
+                      <img src={comadown} style={{ width: "80px" }} className='img-fluid' alt="Image 6" />
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-
-            <div className="row  ">
-              <div className="col-md-4 col-12 mt-5 pt-5 pb-5  ">
-                <img src={img14} style={{ width: "80%" }} className='img-fluid ' alt="Image 1" />
-              </div>
-              <div className="col-md-8 col-12 my-auto">
-                <div className="row ">
-                  <div className="col-2">
-                    <img src={comaup} style={{ width: "80px" }} className='img-fluid' alt="Image 2" />
-                  </div>
-                  <div className="col-8" style={{ marginTop: "70px" }}>
-                    <p>Digi Khata has shrunk our hours-long work shift into minutes. It is very easy-to-use, record transactions in real-time and keep our record safe with data backup</p>
-                  </div>
-                  <div className="col-2" style={{ marginTop: "140px" }}>
-                    <img src={comadown} style={{ width: "80px" }} className='img-fluid' alt="Image 3" />
+            <div className="carousel-slide">
+              <div className="row">
+                <div className="col-md-4 col-12 mt-5 pt-5 pb-5">
+                  <img src={img14} style={{ width: "80%" }} className='img-fluid' alt="Image 7" />
+                </div>
+                <div className="col-md-8 col-12 my-auto">
+                  <div className="row">
+                    <div className="col-2">
+                      <img src={comaup} style={{ width: "80px" }} className='img-fluid' alt="Image 8" />
+                    </div>
+                    <div className="col-8" style={{ marginTop: "70px" }}>
+                      <p>Digi Khata has shrunk our hours-long work shift into minutes. It is very easy to use, record transactions in real-time, and keep our record safe with data backup.</p>
+                    </div>
+                    <div className="col-2" style={{ marginTop: "140px" }}>
+                      <img src={comadown} style={{ width: "80px" }} className='img-fluid' alt="Image 9" />
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-
-
-
-
           </Carousel>
         </div>
+
+
 
         {/* ---------------------FAQS--------------- */}
         <section className="py-5" style={{ backgroundColor: "#f8f8f8" }}>
